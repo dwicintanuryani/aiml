@@ -1,0 +1,9 @@
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csprojAssemblyReference.cache
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\Project\AIMLChatBot\AIMLChatBot\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
