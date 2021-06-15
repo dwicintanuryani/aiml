@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item name="timeoutmessage" value="Mohon maaf, sepertinya terdapat masalah dalam menjangkau permintaan anda, silahkan mencoba kembali lain waktu."/>
+  <item name="notacceptinguserinputmessage" value="Assistensi Virtual Mizuho sedang tidak dapat menerima layanan, silahkan mencoba kembali lain waktu."/>
+  <item name="defaultgreetingmessage" value="Selamat datang di Assistensi Virtual Mizuho. Adakah yang dapat kami bantu?."/>
+  <item name="feedbackmessage" value="Terima kasih banyak atas tanggapan anda mengenai kami. Kami akan terus meningkatkan layanan kami."/>
+  <item name="askingresolvemessage"  value="Apakah jawaban kami dapat menyelesaikan permintaan anda?."/>
+  <item name="unknownmessage" value="Sepertinya kami tidak dapat memahami permintaan anda. Apakah ada permintaan lainnya yang dapat kami bantu?."/>
+  <item name="undermaintenancemessage" value="Assistensi Virtual kini dalam masa pemeliharaan, kami akan segera kembali."/>
+</root>

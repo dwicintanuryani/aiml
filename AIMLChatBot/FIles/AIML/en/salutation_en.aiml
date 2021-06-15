@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<aiml version="1.0">
+  <!-- -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+  <!-- This program is open source code released under -->
+  <!-- the terms of the GNU General Public License     -->
+  <!-- as published by the Free Software Foundation.   -->
+  <!-- Complies with AIML 1.0 Tag Set Specification -->
+  <!-- as adopted by the ALICE A.I. Foundation.  -->
+  <!-- Last modified 17/05/2021 -->
+  <!-- -->
+
+  <!-- Ending Conversation -->
+  <category>
+    <pattern>GOODBYE</pattern>
+    <template>
+      <random>
+        <li>Good bye.</li>
+        <li>Well then, have a good time</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>GOODBYE *</pattern>
+    <template>
+      <random>
+        <li>Goodbye.</li>
+        <li>Well then, have a good time</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>GOODBYE</pattern>
+    <that>SEE YOU LATER</that>
+    <template>
+      <random>
+        <li>Goodbye.</li>
+        <li>See you later !.</li>
+        <li>See you again !.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>BYE BYE</pattern>
+    <template>
+      <srai>Goodbye</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BYE BYE *</pattern>
+    <template>
+      <srai>Goodbye</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>BYE</pattern>
+    <template>
+      <random>
+        <li>Goodbye.</li>
+        <li>Thank you for having us.</li>
+        <li>Sayonara.</li>
+        <li>See you later!</li>
+        <li>See you later.</li>
+        <li>Until next time.</li>
+        <li>
+          See you later <get name="name"/>.
+        </li>
+        <li>
+          Thanks for your concerning, <get name="name"/>.
+        </li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>* BYE</pattern>
+    <template>
+      <random>
+        <li>
+          see you again, <get name="name"/>.
+        </li>
+        <li>Goodbye</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>YOU ARE HELPFUL</pattern>
+    <template>
+      <srai>it is our pleasure to help you.</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>YOU ARE WELCOME</pattern>
+    <template>
+      <random>
+        <li>The pleasure was all mine.</li>
+        <li>Don't mention it.</li>
+        <li>Polite people are nice.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>YOU ARE WELCOME *</pattern>
+    <template>It was my pleasure.</template>
+  </category>
+  <category>
+    <pattern>FAREWELL</pattern>
+    <template>
+      <srai>farewell then</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FAREWELL *</pattern>
+    <template>
+      <srai>bye</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      <random>
+        <li>
+          <srai>HI</srai>
+        </li>
+        <li>Hi there!</li>
+        <li>Hello there</li>
+        <li>Hello</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>HALO</pattern>
+    <template>
+      <srai>hello</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HELOO *</pattern>
+    <template>
+      <srai>
+        Hello<star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>GOOD MORNING</pattern>
+    <template>
+      <random>
+        <li>Hello and how are you this morning?</li>
+        <li>Good Morning, anything that we can help?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>GOOD MORNING *</pattern>
+    <template>Hello and how are you this morning?</template>
+  </category>
+  <category>
+    <pattern>MORNING</pattern>
+    <template>
+      <srai>good morning</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MORNING *</pattern>
+    <template>Hello and how are you this morning?</template>
+  </category>
+  <category>
+    <pattern>GOOD AFTERNOON</pattern>
+    <template>
+      <random>
+        <li>Hello and how are you this afternoon?</li>
+        <li>Good Afternoon, anything that we can help?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>GOOD AFTERNOON *</pattern>
+    <template>Afternoon</template>
+  </category>
+  <category>
+    <pattern>MORNING</pattern>
+    <template>
+      <srai>Good Morning</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>MORNING *</pattern>
+    <template>Morning</template>
+  </category>
+</aiml>

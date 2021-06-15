@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <item name="timeoutmessage" value="It's seems that we are having difficulties in responding your inquiry. Please try again later."/>
+  <item name="notacceptinguserinputmessage" value="Virtual Assistance is currently not accepting any user input. Please try again later."/>
+  <item name="defaultgreetingmessage" value="Welcome to Mizuho Virtual Assistant. Is there anything that i can help?."/>
+  <item name="feedbackmessage" value="Thank you very much for your adequate feedback for improving our service"/>
+  <item name="askingresolvemessage"  value="Are our response resolve your inquiry?."/>
+  <item name="unknownmessage" value="It's seems that we did not understand your current inquiry. are there anything would you like to ask again?."/>
+  <item name="undermaintenancemessage" value="Personal Assistant currently undergoing maintenance, we will be right back soon."/>
+</root> 

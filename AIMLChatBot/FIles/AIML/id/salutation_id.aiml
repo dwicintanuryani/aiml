@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<aiml version="1.0">
+  <!-- -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+  <!-- This program is open source code released under -->
+  <!-- the terms of the GNU General Public License     -->
+  <!-- as published by the Free Software Foundation.   -->
+  <!-- Complies with AIML 1.0 Tag Set Specification -->
+  <!-- as adopted by the ALICE A.I. Foundation.  -->
+  <!-- Last modified 17/05/2021 -->
+  <!-- -->
+
+  <!-- Ending Conversation -->
+  <category>
+    <pattern>SAMPAI JUMPA</pattern>
+    <template>
+      <random>
+        <li>Sampai Jumpa.</li>
+        <li>Baiklah, Semoga harimu menyenangkan</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>SAMPAI JUMPA *</pattern>
+    <template>
+      <random>
+        <li>Sampai Jumpa.</li>
+        <li>Baiklah, Semoga harimu menyenangkan</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>SAMPAI JUMPA</pattern>
+    <that>SELAMAT TINGGAL</that>
+    <template>
+      <random>
+        <li>Sampai Jumpa.</li>
+        <li>Sampai Bertemu lagi.</li>
+        <li>Sampai Bertemu lagi di lain kesempatan</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>SELAMAT TINGGAL</pattern>
+    <template>
+      <srai>Selamat Tinggal</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SELAMAT TINGGAL *</pattern>
+    <template>
+      <srai>Selamat Tinggal</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SELAMAT TINGGAL</pattern>
+    <template>
+      <random>
+        <li>Selamat Tinggal.</li>
+        <li>Terima kasih be.</li>
+        <li>Sayonara.</li>
+        <li>Sampai Jumpa Lagi!.</li>
+        <li>Sampai Jumpa Lagi.</li>
+        <li>Until next time.</li>
+        <li>
+          Sampai Bertemu lagi,  <get name="name"/>.
+        </li>
+        <li>
+          Terima kasih atas perhatian anda, <get name="name"/>.
+        </li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>* SAMPAI JUMPA</pattern>
+    <template>
+      <random>
+        <li>
+          Sampai jumpa lagi, <get name="name"/>.
+        </li>
+        <li>Selamat Tinggal</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>SANGAT MEMBANTU</pattern>
+    <template>
+      <srai>Merupakan sebuah kebanggaan dapat membantu anda</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>TERIMA KASIH KEMBALI</pattern>
+    <template>
+      <random>
+        <li>The pleasure was all mine.</li>
+        <li>Jangan katakan hal itu.</li>
+        <li>Terima kasih telah percaya kepada kami.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>TERIMA KASIH KEMBALI *</pattern>
+    <template>
+      <random>
+        <li>Senang dapat membantu anda.</li>
+        <li>Jangan katakan hal itu.</li>
+        <li>Terima kasih telah percaya kepada kami.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>TERIMA KASIH BANYAK *</pattern>
+    <template>Senang dapat membantu anda.</template>
+  </category>
+  <category>
+    <pattern>SELAMAT TINGGAL</pattern>
+    <template>
+      <srai>Sampai bertemu kembali di lain kesempatan.</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SELAMAT TINGGAL *</pattern>
+    <template>
+      <srai>Selamat tinggal. Sampai bertemu kembali di lain kesempatan.</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      <random>
+        <li>
+          <srai>HI</srai>
+        </li>
+        <li>Hi, Ada yang bisa kami bantu?. </li>
+        <li>Halo, Ada yang bisa kami bantu?. </li>
+        <li>Halo.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>HALO</pattern>
+    <template>
+      <srai>hello</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HELOO *</pattern>
+    <template>
+      <srai>
+        Hello<star/>
+      </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SELAMAT PAGI</pattern>
+    <template>
+      <random>
+        <li>Halo, bagaimana kabar anda pagi ini?</li>
+        <li>Good Morning, anything that we can help?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>SELAMAT PAGI *</pattern>
+    <template>Halo, bagaimana kabar anda pagi ini?</template>
+  </category>
+  <category>
+    <pattern>PAGI</pattern>
+    <template>
+      <srai>Selamat Pagi</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>PAGI *</pattern>
+    <template>Halo, bagaimana keadaan anda pagi ini?</template>
+  </category>
+</aiml>
